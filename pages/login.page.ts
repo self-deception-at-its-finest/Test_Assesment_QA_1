@@ -16,7 +16,6 @@ export class LoginPage extends BasePage {
         this.emailInput = this.loginDialog.locator('#email');
         this.passwordInput = this.loginDialog.locator('#password')
         this.loginButton = this.loginDialog.getByRole('button', { name: 'LOGIN', exact: true });
-
     }
 
     async login(creds?: {username?: string; password?: string}) {

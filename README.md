@@ -3,8 +3,8 @@
 A small end-to-end test suite for the **Trend View** feature, built with **Playwright + TypeScript** using the Page Object Model (POM).
 
 ### Test coverage
-- **TC-011:** Rename a section and verify the name persists after a page refresh.
-- **TC-016:** Add a tag to a section and verify the selected tag persists after a page refresh.
+- **TC-007:** Rename a section and verify the name persists after a page refresh.
+- **TC-010:** Add a tag to a section and verify the selected tag persists after a page refresh.
 
 **Why these scenarios?** They cover two core Trend View workflows—section management and tag assignment—and verify that user changes persist after a reload. Together they provide useful coverage of both editing and configuration with only two end-to-end tests.
 

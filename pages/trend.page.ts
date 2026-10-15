@@ -77,8 +77,6 @@
                 .click();
         }
 
-
-
         async selectRandomTags(count: number): Promise<string[]> {
             if (!Number.isInteger(count) || count < 1 || count > 5) {
                 throw new Error('Tag count must be between 1 and 5');
